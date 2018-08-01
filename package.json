@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/bobomurod/cross-mongover/issues"
   },
-  "homepage": "https://github.com/bobomurod/cross-mongover#readme"
+  "homepage": "https://github.com/bobomurod/cross-mongover#readme",
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "mongodb": "^3.1.1",
+    "mongodb-collection-sample": "^3.0.0"
+  }
 }
