@@ -1,0 +1,22 @@
+{
+  "name": "cross-mongover",
+  "version": "0.0.1",
+  "description": "DataBase migration tool written on JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bobomurod/cross-mongover.git"
+  },
+  "keywords": [
+    "mongo"
+  ],
+  "author": "Bobomurod Boboev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bobomurod/cross-mongover/issues"
+  },
+  "homepage": "https://github.com/bobomurod/cross-mongover#readme"
+}
