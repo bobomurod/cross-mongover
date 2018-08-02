@@ -1,4 +1,4 @@
-var sample = require('mongo-collection-sample');
+var sample = require('mongodb-collection-sample');
 var mongodb = require('mongodb');
 var _ = require('lodash');
 
@@ -7,10 +7,10 @@ mongodb.connect('mongodb://127.0.0.1:27017', function(err,db){
         console.error("cannot connect to mongodb:", err);
         return process.exit(1);
     }
-    var docs = _range(0,1000).map(function(i){
+    var docs = _.range(0,1000).map(function(i){
         return {
             _id: 'needle' + i,
-            _is_even: i % 2
+            is_even: i % 2
         };
     });
     db.collection('haystack').insert(docs, function(err){
